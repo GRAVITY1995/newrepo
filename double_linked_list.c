@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
+//creating structure
 struct node
 {
     int value;
@@ -105,7 +105,7 @@ int fetch(int index)
     }
 }
 int display()
-{
+{   //display function
     Node *a;
     a=head;
     while(a!=tail)
